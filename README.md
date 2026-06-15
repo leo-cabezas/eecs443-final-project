@@ -1,4 +1,3 @@
 Test README page
 
-
-<embed src="/docs/EECS 443 Final Project Report - Leo Cabezas.pdf " type="application/pdf" />
+<iframe src="/docs/EECS 443 Final Project Report - Leo Cabezas.pdf " width="100%" height="800px"></iframe>
