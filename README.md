@@ -8,12 +8,12 @@ A VHDL implementation of a traffic light system for a 4-way intersection, target
 <table>
   <tr>
     <td align="center">
-      <img src="docs/images/traffic_lights_1.jpg" alt="traffic_lights_1" width="400" /><br>
-      <em>Figure 1: Traffic light system (green North-South, yellow East-West).</em>
+      <img src="docs/images/traffic_lights_1.jpg" alt="traffic_lights_1" width="500" /><br>
+      <em>Figure 1: Traffic lights (green North-South, yellow East-West).</em>
     </td>
     <td align="center">
       <img src="docs/images/traffic_lights_2.jpg" alt="traffic_lights_2" width="500"><br>
-      <em>Figure 2: Traffic light system (yellow North-South, red East-West).</em>
+      <em>Figure 2: Traffic lights (yellow North-South, red East-West).</em>
     </td>
 </table>
 
