@@ -1,9 +1,9 @@
-# Traffic Light Controller (4-way intersection)
+# Traffic Light Controller
 
 - **Institution:** University of Kansas
 - **Course:** EECS 443 (Digital Systems Design)
 
-A VHDL implementation of a traffic light system for a 4-way intersection, targeting the Nexys4 field-programmable gate array (FPGA) board.
+A simple VHDL implementation of a traffic light system for a 4-way intersection, targeting the Nexys A7 field-programmable gate array (FPGA) board. A simple Mealy finite state machine (FSM) determines the current state of the intersection based on the provided on-board switch inputs. External LED circuitry was added to visually display the state of the controller.
 
 <table>
   <tr>
@@ -19,8 +19,20 @@ A VHDL implementation of a traffic light system for a 4-way intersection, target
 
 # Deployment instructions
 
-In the [Vivado 2025.2 suite](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vivado.html), import the project and compile it. Using a
+<figure align="center">
+  <img src="docs/images/external_circuitry" alt="external_circuitry" width="800"><br>
+  <figcaption><em>Figure 3: External LED circuit diagram for the traffic light controller.</em></figcaption>
+</figure>
+<br><br>
+
+In the [Vivado 2025.2 suite](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vivado.html), import the project and then upload it to the Nexys A7 board. Follow the provided diagram to assemble the external circuitry.
 
 # How it works
+
+<figure align="center">
+  <img src="docs/images/mealy_fsm_diagram.png" alt="mealy_fsm_diagram" width="600"><br>
+  <figcaption><em>Figure 4: Mealy FSM for the traffic light controller.</em></figcaption>
+</figure>
+<br><br>
 
 Download the final report for this project [here](docs/files/EECS443_Final_Project_Report.pdf).
