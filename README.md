@@ -8,12 +8,12 @@ A VHDL implementation of a traffic light system for a 4-way intersection, target
 <table>
   <tr>
     <td align="center">
-      <img src="docs/images/3m_distance_showcase.jpg" alt="3m_distance_showcase" width="400" /><br>
-      <em>Figure 1: Maximum distance achieved by the system.</em>
+      <img src="docs/images/traffic_lights_1.jpg" alt="traffic_lights_1" width="400" /><br>
+      <em>Figure 1: Traffic light system (green North-South, yellow East-West).</em>
     </td>
     <td align="center">
-      <img src="docs/images/serial_monitor_output.png" alt="serial_monitor_output" width="500"><br>
-      <em>Figure 2: Serial monitor output for the receiver board (RX).</em>
+      <img src="docs/images/traffic_lights_2.jpg" alt="traffic_lights_2" width="500"><br>
+      <em>Figure 2: Traffic light system (yellow North-South, red East-West).</em>
     </td>
 </table>
 
